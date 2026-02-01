@@ -119,12 +119,9 @@ agri-crop-RAG/
 
 <h2 align="center">🖥️ Example Output</h2>
 
-
-Question: What are the soil requirements for chickpea?
-
-Answer:
-Well-drained sandy loam or silt loam soils with a pH of 6–8 are ideal.
-Saline soils are not suitable.
+<p align="center">
+  <img src="assets/output_image.png" width="800"/>
+</p>
 
 <hr/> <h2 align="center">🛠️ Tech Stack</h2> <table align="center"> <tr> <th>Technology</th> <th>Purpose</th> </tr> <tr> <td>🐍 Python</td> <td>Main programming language</td> </tr> <tr> <td>🔗 LangChain</td> <td>RAG orchestration</td> </tr> <tr> <td>🤖 Google Gemini</td> <td>LLM + Embeddings</td> </tr> <tr> <td>📦 ChromaDB</td> <td>Vector database</td> </tr> <tr> <td>📄 PyPDFLoader</td> <td>PDF ingestion</td> </tr> <tr> <td>🔐 dotenv</td> <td>Environment variable management</td> </tr> <tr> <td>🗂 Git & GitHub</td> <td>Version control</td> </tr> </table> <hr/> <h2 align="center">🚀 Getting Started</h2> <h3>1️⃣ Clone the Repository</h3>
 git clone https://github.com/<your-username>/agri-crop-RAG.git
