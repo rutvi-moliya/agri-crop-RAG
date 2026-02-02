@@ -105,6 +105,25 @@ agri-crop-RAG/
 <hr/>
 
 
+<hr/> <h2 align="center">🛠️ Tech Stack</h2> <table align="center"> <tr> <th>Technology</th> <th>Purpose</th> </tr> <tr> <td>🐍 Python</td> <td>Main programming language</td> </tr> <tr> <td>🔗 LangChain</td> <td>RAG orchestration</td> </tr> <tr> <td>🤖 Google Gemini</td> <td>LLM + Embeddings</td> </tr> <tr> <td>📦 ChromaDB</td> <td>Vector database</td> </tr> <tr> <td>📄 PyPDFLoader</td> <td>PDF ingestion</td> </tr> <tr> <td>🔐 dotenv</td> <td>Environment variable management</td> </tr> <tr> <td>🗂 Git & GitHub</td> <td>Version control</td> </tr> </table> <hr/> <h2 align="center">🚀 Getting Started</h2> <h3>1️⃣ Clone the Repository</h3>
+git clone https://github.com/<your-username>/agri-crop-RAG.git
+cd agri-crop-RAG
+
+<h3>2️⃣ Create Virtual Environment</h3>
+python -m venv venv
+
+
+<b>Activate:</b>
+
+# Windows
+venv\Scripts\activate
+
+# macOS / Linux
+source venv/bin/activate
+
+<h3>3️⃣ Install Dependencies</h3>
+pip install -r requirements.txt
+
 <h2 align="center">🧪 Example Questions</h2>
 
 <ul>
@@ -122,43 +141,5 @@ agri-crop-RAG/
 <p align="center">
   <img src="assets/output_image.png" width="800"/>
 </p>
-
-<hr/> <h2 align="center">🛠️ Tech Stack</h2> <table align="center"> <tr> <th>Technology</th> <th>Purpose</th> </tr> <tr> <td>🐍 Python</td> <td>Main programming language</td> </tr> <tr> <td>🔗 LangChain</td> <td>RAG orchestration</td> </tr> <tr> <td>🤖 Google Gemini</td> <td>LLM + Embeddings</td> </tr> <tr> <td>📦 ChromaDB</td> <td>Vector database</td> </tr> <tr> <td>📄 PyPDFLoader</td> <td>PDF ingestion</td> </tr> <tr> <td>🔐 dotenv</td> <td>Environment variable management</td> </tr> <tr> <td>🗂 Git & GitHub</td> <td>Version control</td> </tr> </table> <hr/> <h2 align="center">🚀 Getting Started</h2> <h3>1️⃣ Clone the Repository</h3>
-git clone https://github.com/<your-username>/agri-crop-RAG.git
-cd agri-crop-RAG
-
-<h3>2️⃣ Create Virtual Environment</h3>
-python -m venv venv
-
-
-<b>Activate:</b>
-
-# Windows
-venv\Scripts\activate
-
-# macOS / Linux
-source venv/bin/activate
-
-<h3>3️⃣ Install Dependencies</h3>
-pip install -r requirements.txt
-
-<hr/> <h2 align="center">🛠️ Tech Stack</h2> <table align="center"> <tr> <th>Technology</th> <th>Purpose</th> </tr> <tr> <td>🐍 Python</td> <td>Main programming language</td> </tr> <tr> <td>🔗 LangChain</td> <td>RAG orchestration</td> </tr> <tr> <td>🤖 Google Gemini</td> <td>LLM + Embeddings</td> </tr> <tr> <td>📦 ChromaDB</td> <td>Vector database</td> </tr> <tr> <td>📄 PyPDFLoader</td> <td>PDF ingestion</td> </tr> <tr> <td>🔐 dotenv</td> <td>Environment variable management</td> </tr> <tr> <td>🗂 Git & GitHub</td> <td>Version control</td> </tr> </table> <hr/> <h2 align="center">🚀 Getting Started</h2> <h3>1️⃣ Clone the Repository</h3>
-git clone https://github.com/<your-username>/agri-crop-RAG.git
-cd agri-crop-RAG
-
-<h3>2️⃣ Create Virtual Environment</h3>
-python -m venv venv
-
-
-<b>Activate:</b>
-
-# Windows
-venv\Scripts\activate
-
-# macOS / Linux
-source venv/bin/activate
-
-<h3>3️⃣ Install Dependencies</h3>
-pip install -r requirements.txt
 
 <hr/> <h2 align="center">🧠 Why RAG Instead of Fine-Tuning?</h2> <table align="center"> <tr> <th>RAG</th> <th>Fine-Tuning</th> </tr> <tr> <td>Uses documents directly</td> <td>Learns patterns only</td> </tr> <tr> <td>Easy to update knowledge</td> <td>Expensive to retrain</td> </tr> <tr> <td>Less hallucination</td> <td>Can still hallucinate</td> </tr> <tr> <td>Best for factual QA</td> <td>Best for tone/style</td> </tr> </table> <hr/> <h2 align="center">🔮 Future Enhancements</h2> <ul> <li>🌐 Streamlit Web UI (ChatGPT-like interface)</li> <li>📚 Source citations per answer</li> <li>📄 DOCX / TXT support</li> <li>☁️ Cloud deployment</li> <li>🔐 User authentication</li> </ul> <hr/> <h2 align="center">🧑‍💼 What This Project Demonstrates</h2> <ul> <li>✔ Understanding of LLMs & RAG</li> <li>✔ Practical use of embeddings & vector search</li> <li>✔ Clean project structure</li> <li>✔ API usage & rate-limit handling</li> <li>✔ Real-world ML system design</li> </ul> <hr/> <h2 align="center">📄 License</h2> <p align="center"> This project is licensed under the <b>MIT License</b>. </p> <hr/> <h2 align="center">🙏 Acknowledgements</h2> <p align="center"> Google Gemini • LangChain • ChromaDB </p> <p align="center"> ⭐ If you like this project, consider starring the repo! </p>
